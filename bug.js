@@ -1,0 +1,1 @@
+This error occurs when using the Expo Camera API and attempting to access the camera's features before the camera has fully initialized.  The `Camera.useCamera` hook might return `null` initially, leading to errors when trying to use properties like `type`, `takePictureAsync`, etc. before the camera is ready.
